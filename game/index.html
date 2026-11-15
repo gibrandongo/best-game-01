@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emberkeep — Defence of the Last Lantern</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0a0c1e; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas {
+    width: min(1280px, 100vw);
+    height: auto;
+    aspect-ratio: 1280 / 720;
+    background: #141733;
+    image-rendering: auto;
+    box-shadow: 0 0 60px rgba(80, 90, 180, 0.35);
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
